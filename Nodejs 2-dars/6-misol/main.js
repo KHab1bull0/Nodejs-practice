@@ -3,8 +3,9 @@ import { objToArray, arrayToObj, stringToBoolean } from "./converters/index.js";
 
 const [file, args] = [process.argv[2], process.argv[3]]
 
+console.log(args)
 
-console.log(objToArray({1:1}))
+
 function func(command, args) {
     switch (command) {
         case 'Object':
