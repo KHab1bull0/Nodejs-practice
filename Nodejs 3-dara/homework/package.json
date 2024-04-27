@@ -1,0 +1,12 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "1-misol.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "habib",
+  "license": "ISC"
+}
