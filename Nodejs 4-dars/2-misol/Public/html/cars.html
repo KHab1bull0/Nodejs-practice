@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTA</title>
+    <link rel="stylesheet" href="../style/stylecars.css">
+
+    <style>
+/* Main */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../image/6136011.jpeg);
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+li {
+    list-style: none;
+}
+
+
+/* Header style */
+
+.header {
+    background-color: rgb(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-d {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-left: 50px;
+    width: 200px;
+}
+
+.brand-d p {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+.logo {
+    height: 80px;
+}
+
+.menubar-d ul {
+    display: flex;
+}
+
+.menubar-d li {
+    margin: 0 20px;
+}
+
+.menubar-d li a {
+    color: white;
+    font-size: 20px;
+}
+
+.cars{
+    text-decoration: underline;
+}
+.join-d {
+    margin-right: 50px;
+}
+
+.join-d ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.join-d ul li {
+    margin: 0 10px;
+}
+
+.join-d ul li a {
+    color: white;
+    font-size: 20px;
+}
+
+/* section */
+
+.car-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.car-d {
+    background-color: rgb(255, 255, 255, 0.5);
+    min-height: 500px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.car-list {
+    height: 450px;
+    width: 250px;
+    background-color: rgb(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.car-list ul li {
+    margin: 15px 5px;
+    font-size: 24px;
+}
+
+.car-list ul li a {
+    color: white;
+}
+
+.car-img {
+    width: 800px;
+    min-height: 500px;
+}
+
+.sedan {
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sedan img {
+    width: 320px;
+    height: 180px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.crassover{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.crassover img {
+    width: 320px;
+    height: 180px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.supercar{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.supercar img {
+    width: 320px;
+    height: 180px;
+    margin: 20px;
+    border-radius: 5px;
+}
+    </style>
+
+</head>
+<body>
+    
+    <header class="header">
+        <div class="brand-d">
+            <span class="logo"><img src="../image/gta.png" alt="brand-logo" width="80"></span>
+        </div>
+        <div class="menubar-d">
+                <ul>
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./html/product.html" class="cars">Cars</a></li>
+                    <li><a href="./html/price.html">Price</a></li>
+                    <li><a href="./html/contact.html">Contact</a></li>
+                </ul>
+        </div>
+        <div class="join-d">
+            <ul>
+                <li><a href="./html/login.html">Login</a></li>
+                <li><a href="./html/joinus.html">Join Us</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="car-section">
+        <div class="car-d">
+            <div class="car-list">
+                <ul>
+                    <li><a href="#sedan">Sedan</a></li>
+                    <li><a href="#cras">Crossover</a></li>
+                    <li><a href="#super">Super Car</a></li>
+                </ul>
+            </div>
+            <div class="car-img">
+
+                <div class="sedan" id="sedan">
+                    <img src="../image/mazda.webp" alt="">
+                    <img src="../image/audi.webp" alt="">
+                    <img src="../image/kia.webp" alt="">
+                    <img src="../image/bmw.webp" alt="">
+                    <img src="../image/bentle.webp" alt="">
+                    <img src="../image/lexus.webp" alt="">
+                </div>
+
+                <div class="crassover" id="cras">
+                    <img src="../image/ford.webp" alt="">
+                    <img src="../image/Hyundai_Santa_Fe.webp" alt="">
+                    <img src="../image/mazda-cras.webp" alt="">
+                    <img src="../image/Mercedes.webp" alt="">
+                    <img src="../image/Bmwcras.webp" alt="">
+                    <img src="../image/kia-sportage.webp" alt="">
+                </div>
+                <div class="supercar" id="super">
+                    <img src="../image/Maclaren.webp" alt="">
+                    <img src="../image/Lombarghini.webp" alt="">
+                    <img src="../image/ferrari.webp" alt="">
+                    <img src="../image/Lambarghini2.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

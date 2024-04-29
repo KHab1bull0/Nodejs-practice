@@ -1,0 +1,115 @@
+/* Main style */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../image/13643.jpeg');
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+li{
+    list-style: none;
+}
+
+/* Header style */
+
+.header{
+    background-color: rgb(255,255,255, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-d{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-left: 50px;
+    width: 200px;
+}
+
+.brand-d p{
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+.logo{
+    height: 80px;
+}
+
+.menubar-d ul{
+    display: flex;
+}
+
+.menubar-d li{
+    margin: 0 20px;
+}
+
+.menubar-d li a{ 
+    color: white;
+}
+
+.home{
+    text-decoration: underline;
+}
+
+.join-d{
+    margin-right: 50px;
+}
+
+.join-d ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.join-d ul li{
+    margin: 0 10px;
+}
+
+.join-d ul li a{
+    color: white;
+}
+
+
+
+/* section  */
+
+.section-1{
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about-d{
+    width: 90%;
+    min-height: 90%;
+    background-color: rgb(255,255,255, 0.5);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.about-d h1{
+    font-size: 34px;
+}
+
+.about-d p{
+    font-size: 18px;
+}

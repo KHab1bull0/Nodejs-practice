@@ -1,0 +1,115 @@
+/* Main */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../image/contact.jpeg);
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* Header style */
+
+.header {
+    background-color: rgb(0,0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-d {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-left: 50px;
+    width: 200px;
+}
+
+.brand-d p {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+.logo {
+    height: 80px;
+}
+
+.menubar-d ul {
+    display: flex;
+}
+
+.menubar-d li {
+    margin: 0 20px;
+}
+
+.menubar-d li a {
+    color: white;
+    font-size: 20px;
+}
+.menubar-d .contact{
+    text-decoration: underline;
+}
+
+.join-d {
+    margin-right: 50px;
+}
+
+.join-d ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.join-d ul li {
+    margin: 0 10px;
+}
+
+.join-d ul li a {
+    color: white;
+    font-size: 20px;
+}
+
+
+/* section */
+
+.section1{
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-d{
+    background-color: rgb(0,0, 0, 0.5);
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.contact-d h1{
+    color: white;
+}
