@@ -1,6 +1,6 @@
 import express from 'express'
 import fs from 'node:fs'
-import dotenv from 'dotenv'
+import dotenv from '../CRUD with evs pattern/node_modules/dotenv/lib/main'
 import path from 'path'
 
 
