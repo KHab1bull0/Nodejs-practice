@@ -2,10 +2,10 @@ import { readFile, writeFile, validUser } from "../helper/func.js";
 
 
 export const userRegister = (req, res) => {
+    const usersJson = readFile('users.json')
+    
     const reqbody = req.body
     const result = validUser(reqbody)
-    
-    const usersJson = readFile('users.json')
     let len = usersJson.length
     if (!result.error) {
         const body = {
@@ -72,7 +72,6 @@ export const userProfile = (req, res) => {
     } else {
         res.status(404).send('User not found.')
     }
-
 }
 
 
